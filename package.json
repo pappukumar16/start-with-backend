@@ -3,16 +3,14 @@
   "version": "1.0.0",
   "description": "a backend at chai and code channel",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon src/index.js"
   },
   "keywords": [
     "javaScript",
     "backend"
   ],
   "author": "pappu kumar",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.0"
-  }
+  "license": "ISC"
 }
